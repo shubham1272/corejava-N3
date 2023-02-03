@@ -31,7 +31,12 @@ public class OperatorDemo {
 		System.out.println("Result 1 : "+res3);
 		
 		//Bitwise Operator
-		
+		int a=12%5;
+		int b=12|5;
+		int c=2^5;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 		
 		
 	}
