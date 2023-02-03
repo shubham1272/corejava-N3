@@ -19,6 +19,19 @@ public class OperatorDemo {
 		//relational
 		boolean res=x>y;
 		
+		//assignment operator
+		x+=y;
+		System.out.println(x);
+		//logical operator
+		boolean res1=(5==5)&&(5>3);
+		boolean res2=(5==5)||(5>3);
+		boolean res3=!(5==4);
+		System.out.println("Result 1 : "+res1);
+		System.out.println("Result 1 : "+res2);
+		System.out.println("Result 1 : "+res3);
+		
+		//Bitwise Operator
+		
 		
 		
 	}
